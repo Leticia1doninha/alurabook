@@ -7,7 +7,17 @@ background-position: center;
     display: inline-block;
    
 }
+.container__botao:checked~.cabeçalho__menu-hanburguer{
+    background-imagem: url(".../img/menuAberto.svg");
 
+
+ .container__botao:checked~.container__rotulo{
+   background:var(--azul-degrade);
+
+
+
+    }
+}
 .cabeçalho{
     background-color: var(--branco);
     display: flex;
@@ -22,7 +32,7 @@ background-position: center;
 }
 
 .container__imagem{
-padding: 1em;
+  padding: 1em;
 }
 
 .lista-menu{
@@ -39,6 +49,10 @@ padding: 1em;
 .lista-menu__titulo, .lista-menu__item{
     padding: 1em;
     background:color: var(--branco);
+  .lista-menu__titulo{
+    color: var(--laranja);
+    front-weight: 700;
+  
 }
 
 .lista-menu__link{
@@ -48,3 +62,7 @@ padding: 1em;
     background: clip: text;
     text-transform: uppercase;
 }
+
+ .container__botao{
+    display: none;
+ }
