@@ -1,4 +1,4 @@
-.cabeçalho__menu-hanburguer{
+.cabecalho__menu-hanburguer{
     width: 24px;
     height: 24px;
     background-image:url(..img/menu.svg) ;
@@ -7,7 +7,7 @@ background-position: center;
     display: inline-block;
    
 }
-.container__botao:checked~.cabeçalho__menu-hanburguer{
+.container__botao:checked~.cabecalho__menu-hanburguer{
     background-imagem: url(".../img/menuAberto.svg");
 
 
@@ -18,7 +18,7 @@ background-position: center;
 
     }
 }
-.cabeçalho{
+.cabecalho{
     background-color: var(--branco);
     display: flex;
     justify-content:space-between;
